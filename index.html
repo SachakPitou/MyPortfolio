@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thypheap Sachakpitou — Projects</title>
+<meta name="description" content="A log of things I've built." />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="scanline" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a href="#top" class="brand">
+        <span class="brand__dot"></span>
+        <span class="brand__name">Thypheap Sachakpitou</span>
+      </a>
+      <nav class="nav">
+        <a href="#log">Log</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero wrap">
+      <p class="hero__eyebrow">$ whoami</p>
+      <h1 class="hero__title">
+        I build small, useful things
+        <span class="cursor" aria-hidden="true"></span>
+      </h1>
+      <p class="hero__sub">
+        Software developer. Below is a running log of what I've shipped —
+        each entry links straight to the source on GitHub.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#log">View the log ↓</a>
+        <a class="btn btn--ghost" id="gh-profile-link" href="https://github.com/SachakPitou" target="_blank" rel="noopener">
+          github.com/SachakPitou
+        </a>
+      </div>
+    </section>
+
+    <section id="log" class="log wrap">
+      <h2 class="section-title"><span class="section-title__num">01</span> Project log</h2>
+      <p class="section-hint">Newest first. Click a card to open the repo.</p>
+
+      <div class="log__list" id="log-list">
+        <!-- entries injected by script.js -->
+      </div>
+    </section>
+
+    <section id="about" class="about wrap">
+      <h2 class="section-title"><span class="section-title__num">02</span> About</h2>
+      <div class="about__grid">
+        <p class="about__text">
+          I'm a software developer who has built software and systems for
+          my company and for my own personal projects.
+          Edit <code>script.js</code> to make it yours.
+        </p>
+        <ul class="about__stack">
+          <li><span>Languages</span>JavaScript, Python, TypeScript</li>
+          <li><span>Tools</span>Git, Node, React</li>
+          <li><span>Based in</span>Earth, mostly online</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact wrap">
+      <h2 class="section-title"><span class="section-title__num">03</span> Contact</h2>
+      <p class="contact__text">Want to collaborate or just say hi?</p>
+      <div class="contact__links">
+        <a href="mailto:sachakpitoutps@gmail.com">sachakpitoutps@gmail.com</a>
+        <a href="https://github.com/SachakPitou" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/thypheap-sachakpitou-b050682a0/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer wrap">
+    <p>Built with plain HTML/CSS/JS · deployed on Vercel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
