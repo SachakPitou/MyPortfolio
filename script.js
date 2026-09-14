@@ -66,6 +66,16 @@ const PROJECTS = [
     github: "https://github.com/SachakPitou/stockms",
     demo: ""
   },
+  {
+    name: "Github Infrastructure Generator",
+    type: "Personal",
+    hash: "7d8e9f1",
+    date: "2026",
+    desc: "System built to auto-generate a github repository with infrastructure.",
+    tags: ["Python", "HTML"],
+    github: "https://github.com/SachakPitou/github-infrastructure-generator",
+    demo: ""
+  },
 ];
 
 function renderProjects(projects) {
