@@ -74,7 +74,7 @@ const PROJECTS = [
     desc: "System built to auto-generate a github repository with infrastructure.",
     tags: ["Python", "HTML"],
     github: "https://github.com/SachakPitou/github-infrastructure-generator",
-    demo: ""
+    demo: "https://github-infrastructure-generator.vercel.app/"
   },
 ];
 
